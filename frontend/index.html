@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PROJECT_NAAM}}</title>
+    <link rel="stylesheet" href="../styles/theme.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>{{PROJECT_NAAM}}</h1>
+            <p class="tagline">{{PROJECT_BESCHRIJVING}}</p>
+        </div>
+    </header>
+
+    <nav class="category-nav">
+        <div class="container">
+            <button class="cat-btn active" data-cat="vers">Verse Producten</button>
+            <button class="cat-btn" data-cat="materiaal">Materialen</button>
+            <button class="cart-btn" id="cartToggle">
+                Winkelwagen (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="productGrid" class="product-grid"></section>
+    </main>
+
+    <!-- Winkelwagen sidebar -->
+    <aside id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Winkelwagen</h2>
+            <button id="cartClose">&times;</button>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Totaal:</span>
+                <span id="cartTotal">€0,00</span>
+            </div>
+            <div id="deliveryInfo" class="delivery-info" style="display:none">
+                <strong>Vroegst mogelijke leverdatum:</strong>
+                <div id="deliveryDate"></div>
+                <label for="deliveryPicker">Kies leverdatum:</label>
+                <input type="date" id="deliveryPicker">
+            </div>
+            <button class="btn-primary" id="checkoutBtn">Naar checkout</button>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{JAAR}} {{PROJECT_NAAM}} — Gebouwd door ARC AI Agents</p>
+        </div>
+    </footer>
+
+    <script src="../frontend/cart.js"></script>
+</body>
+</html>

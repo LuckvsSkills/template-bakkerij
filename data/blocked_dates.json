@@ -1,0 +1,6 @@
+{
+  "_comment": "Datums in YYYY-MM-DD formaat die NIET beschikbaar zijn voor levering. Admin kan dagen toevoegen/verwijderen.",
+  "blocked_dates": [],
+  "blocked_weekdays": [0],
+  "_weekday_comment": "0=zondag, 1=maandag ... 6=zaterdag. Standaard: zondag geen levering."
+}

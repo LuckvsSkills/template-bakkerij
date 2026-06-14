@@ -1,0 +1,63 @@
+{
+  "vers": [
+    {
+      "id": "v001",
+      "naam": "Appeltaart",
+      "prijs": 18.50,
+      "categorie": "vers",
+      "levertijd_dagen": 7,
+      "beschrijving": "Huisgemaakte appeltaart met kaneel",
+      "afbeelding": "appeltaart.jpg"
+    },
+    {
+      "id": "v002",
+      "naam": "Slagroomtaart",
+      "prijs": 24.95,
+      "categorie": "vers",
+      "levertijd_dagen": 7,
+      "beschrijving": "Verse slagroomtaart met aardbeien",
+      "afbeelding": "slagroomtaart.jpg"
+    },
+    {
+      "id": "v003",
+      "naam": "Koekjes (doos van 12)",
+      "prijs": 9.95,
+      "categorie": "vers",
+      "levertijd_dagen": 3,
+      "beschrijving": "Verse boterkoekjes, doos van 12 stuks",
+      "afbeelding": "koekjes.jpg"
+    }
+  ],
+  "materiaal": [
+    {
+      "id": "m001",
+      "naam": "Keukenmachine",
+      "prijs": 149.00,
+      "categorie": "materiaal",
+      "levertijd_dagen": 0,
+      "voorraad": 12,
+      "beschrijving": "Professionele keukenmachine 1200W",
+      "afbeelding": "keukenmachine.jpg"
+    },
+    {
+      "id": "m002",
+      "naam": "Bakhandschoenen (paar)",
+      "prijs": 6.50,
+      "categorie": "materiaal",
+      "levertijd_dagen": 0,
+      "voorraad": 50,
+      "beschrijving": "Hittebestendige bakhandschoenen",
+      "afbeelding": "handschoenen.jpg"
+    },
+    {
+      "id": "m003",
+      "naam": "Springvorm 24cm",
+      "prijs": 12.95,
+      "categorie": "materiaal",
+      "levertijd_dagen": 0,
+      "voorraad": 30,
+      "beschrijving": "Anti-aanbak springvorm 24cm doorsnede",
+      "afbeelding": "springvorm.jpg"
+    }
+  ]
+}
