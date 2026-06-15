@@ -273,3 +273,21 @@ footer {
   color: var(--text-muted);
   font-size: 0.875rem;
 }
+
+/* === Mobiel: categorieën horizontaal scrollbaar (toegevoegd door Forge) === */
+@media (max-width: 768px) {
+  .category-nav .container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .category-nav .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cat-btn {
+    flex-shrink: 0;
+  }
+}
